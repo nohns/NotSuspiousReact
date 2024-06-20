@@ -3,13 +3,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Routes from "./routes";
 import ReactQueryClientProvider from "@/api/client/query";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
+import { Toaster } from "@/components/ui/toaster";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <ReactQueryClientProvider>
-      <Routes />
+      <BrowserRouter>
+        <Toaster />
+        <App />
+      </BrowserRouter>
     </ReactQueryClientProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
