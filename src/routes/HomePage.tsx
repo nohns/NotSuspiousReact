@@ -6,7 +6,7 @@ function HomePage() {
   return (
     <div className="py-64 flex flex-col items-center gap-4">
       <h1 className="text-5xl font-extrabold">
-        Velkommen til Jenny's autoværksted
+        Velkommen til FED autoværksted
       </h1>
       <p>Den bedste service i byen. Book en ny aftale i dag!</p>
       <Button asChild>

@@ -24,7 +24,7 @@ function Navbar() {
   return (
     <nav className="flex items-center py-8 px-8 justify-between">
       <Link to="/" className="text-2xl font-bold">
-        Jenny's Autoværksted
+        FED Autoværksted
       </Link>
       <ul className="flex gap-4">
         <NavbarItem to="/" title="Hjem" />
