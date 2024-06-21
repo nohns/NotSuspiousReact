@@ -1,5 +1,5 @@
 import Subpage from "@/components/Subpage";
-import { AppointmentForm } from "./book/CreateForm";
+import { AppointmentForm } from "@/components/AppointmentForm";
 import { AppointmentCreateData } from "@/model/Appointment";
 import { useAddAppointmentMutation } from "@/api/endpoints/postAppointment";
 import { useToast } from "@/components/ui/use-toast";

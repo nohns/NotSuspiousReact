@@ -19,46 +19,23 @@
       "licensePlate": "BB45678",
       "date": "2024-07-01",
       "taskDescription": "Årlig service"
-    },
+    }
+  ],
+  "invoiceRegistrations": [
     {
-      "id": "27e9",
-      "date": "2024-06-20",
-      "customerName": "dfsdf",
-      "address": "sfdssfds",
-      "carBrand": "sdfs",
-      "carModel": "dsfs",
-      "licensePlate": "AB13453",
-      "taskDescription": "sfdsfds"
-    },
+      "id": "ds32",
+      "appointmentId": "4939",
+      "mechanicName": "Jens Ole",
+      "hours": 8,
+      "hourlyRate": 450
+    }
+  ],
+  "invoiceRegistrationLines": [
     {
-      "id": "fcde",
-      "date": "2024-06-20",
-      "customerName": "dfsdf",
-      "address": "sdfs",
-      "carBrand": "sdfsf",
-      "carModel": "sdfsf",
-      "licensePlate": "sdfsfds",
-      "taskDescription": "sdfs"
-    },
-    {
-      "id": "0ec7",
-      "date": "2024-06-20",
-      "customerName": "adsad",
-      "address": "afa",
-      "carBrand": "asfas",
-      "carModel": "asdfa",
-      "licensePlate": "adfsd",
-      "taskDescription": "afsdfasdfs"
-    },
-    {
-      "id": "5331",
-      "date": "2024-06-20",
-      "customerName": "Hans Ole",
-      "address": "Holmsborggade 5, 8000 Aarhus C",
-      "carBrand": "Kia",
-      "carModel": "Ria",
-      "licensePlate": "TH12332",
-      "taskDescription": "Nye bremser + fiks revne i ruden"
+      "id": "h3b1",
+      "name": "Benzinslange",
+      "price": 500
     }
   ]
 }
+

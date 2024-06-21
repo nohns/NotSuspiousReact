@@ -16,10 +16,7 @@ function ListPage() {
   const { isLoading, error, data } = useGetAppointmentsByDate(queryDate);
 
   return (
-    <Subpage
-      title="Dine aftaler"
-      description="Se dine aftaler på specifikke datoer"
-    >
+    <Subpage title="Se aftaler" description="Se aftaler på specifikke datoer">
       <SearchForm onSearch={(date) => setAppointmentDate(date)} />
       <div className="pt-4">
         {isLoading && <LoadingSpinner />}
@@ -31,9 +28,6 @@ function ListPage() {
           <p className="text-gray-400">
             Ingen aftaler fundet på den valgte dato 😥
           </p>
-        )}
-        {!queryDate && (
-          <p className="text-gray-400">Vælg en dato for at se dine aftaler</p>
         )}
       </div>
     </Subpage>

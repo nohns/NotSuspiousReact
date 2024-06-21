@@ -16,7 +16,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { AppointmentForm } from "../book/CreateForm";
+import { AppointmentForm } from "@/components/AppointmentForm";
 import { useState } from "react";
 import { format } from "date-fns";
 import { da as daLocale } from "date-fns/locale";
